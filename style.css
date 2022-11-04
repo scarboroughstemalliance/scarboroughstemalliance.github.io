@@ -138,7 +138,7 @@ section img#bot{
 }
 
 #animtext{
-    top: 480;
+    margin-top: 200px;
     position: absolute;
     color: #fff;
     white-space: nowrap;
