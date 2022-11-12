@@ -90,6 +90,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
 }
 
 #menuBtn{
@@ -148,47 +149,25 @@ section img#bot{
     z-index: 9;
 }
 
-.sec{
-    position: relative;
-    padding: 100px;
-    background:#0f2135;
-}
-
-.sec h2{
-    font-size: 40px;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.sec p{
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #fff;
-}
 html, body{
     height:100%;
-}
-.page-wrapper{
-}
-.page-wrapper a:hover{
-    color:#577496;
 }
 
 /* FOOTER */
 .footer{
-    background: #0a1827;
+    background: #1f3145;
     color:#fff;
-    height: 300px;
+    height: 400px;
     position: relative;
 }
 .footer .footer-content{
-    height: 300px;
+    height: 350px;
     display: flex;
 }
 .footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
-    border: 1px solid #0a1827;
+    border: 1px solid #0f2135;
 }
 .footer .footer-content h1, .footer .footer-content h2{
     color: #fff;
