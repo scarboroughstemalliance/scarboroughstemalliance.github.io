@@ -155,7 +155,7 @@ html, body{
 
 /* FOOTER */
 .footer{
-    background: #0f1438;
+    background: #001a45;
     color:#fff;
     height: 400px;
     position: relative;
@@ -229,7 +229,7 @@ html, body{
 
 .contentcontainer {
     background-color: #0f2135;
-    min-height: 100vh;
+    min-height: 80vh;
     text-align: center;
 }
 
