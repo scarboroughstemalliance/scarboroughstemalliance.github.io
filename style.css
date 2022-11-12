@@ -145,7 +145,7 @@ section img#bot{
     white-space: nowrap;
     font-size: 32px;
     font-style: italic;
-    font-family: 'Gugi', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     z-index: 9;
 }
 
@@ -155,10 +155,11 @@ html, body{
 
 /* FOOTER */
 .footer{
-    background: #1f3145;
+    background: #0f1438;
     color:#fff;
     height: 400px;
     position: relative;
+    font-family: 'Audiowide', sans-serif;
 }
 .footer .footer-content{
     height: 350px;
