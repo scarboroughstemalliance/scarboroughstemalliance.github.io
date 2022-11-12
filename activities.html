@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Activities - Scarborough STEM Alliance</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contentbanner">
+            <h1>What We Do</h1>
+            <h3><a href="index.html">Scarborough STEM Alliance</a> > Activities</h3>
+        </div>
+
+        <div class="contentcontainer">
+            <div class="content">
+                <h2>What is SSA doing right now?</h2>
+                <br>
+                <h3><b><u>Current Activities</b></u></h3>
+                <br>
+                <ul>
+                    <li>Mentorship sessions for FLL teams, including those from Sir Ernest Macmillan SPS</li>
+                    <li>Sharing tips, updates, and news on social media</li>
+                    <li>Facilitating community discussion (through Discord), on topics such as:
+                        <ul id="listinlist">
+                            <li>Game strategies</li>
+                            <li>Design ideas</li>
+                            <li>Technical help</li>
+                            <li>Non-technical help</li>
+                            <li>Outreach ideas</li>
+                            <li>Resources</li>
+                            <li>Jokes</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <br><br><br>
+
+                <h3><u><b>Upcoming Events and Plans</b></u></h3>
+                <br>
+                <ul>
+                    <li>Showcases to the public in malls and other community areas</li>
+                    <li>Networking events among Scarborough's tech-related clubs or teams</li>
+                    <li>Creating guides for starting new robotics teams</li>
+                </ul>
+
+                <br><br><br>
+                
+                <h3><u><b>In the Works</b></u></h3>
+                <br>
+                <ul>
+                    <li>Network for parts lending and sharing</li>
+                    <li>Kickstarting robotics teams</li>
+                    <li>Unofficial practise matches</li>
+                    <li>Cross-team fundraising events</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="activities.html">ACTIVITIES</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+            
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+        
+            sideNav.style.left = "-250px"
+        
+            menuBtn.onclick = function(){
+                if(sideNav.style.left == "-250px"){
+                    sideNav.style.left = "0";
+                }
+                else{
+                    sideNav.style.left = "-250px";
+                }
+            }
+        </script>
+
+        <!--side nav can be css if fixed and 0 length then animate length increase-->
+        
+    </body>
+</html> 
