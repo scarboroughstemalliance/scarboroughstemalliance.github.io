@@ -182,7 +182,6 @@ html, body{
     position: relative;
 }
 .footer .footer-content{
-    border: 1px solid red;
     height: 350px;
     display: flex;
 }
@@ -202,7 +201,7 @@ html, body{
 .footer .footer-content .about .socials a{
     border: 1px solid grey;
     width: 30px;
-    height:25px;
+    height:30px;
     padding-top: 5px;
     margin-right: 5px;
     text-align: center;
