@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sono&display=swap');
 
 *{
     margin: 0;
@@ -225,4 +225,72 @@ html, body{
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
+}
+
+.contentbanner {
+    text-align: center;
+    height: min(35vw, 35vh);
+    background: linear-gradient(rgba(0, 0, 0, 0.3),#0f2135), url(images/bannerv2.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.contentbanner h1 {
+    padding-top: min(8vw, 8vh);
+    font-family: 'Audiowide', sans-serif;
+    font-size: 64pt;
+}
+
+.contentbanner h3 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 18pt;
+    padding-top: 20px;
+}
+
+.contentcontainer {
+    background-color: #0f2135;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    width: min(90vw, max(100vh, 50vw));
+    text-align: left;
+    padding: 30px;
+    color: white;
+}
+
+.content h2 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30pt;
+}
+
+
+.content h3 {
+    font-family: 'Sono', sans-serif;
+    font-size: 18pt;
+}
+
+.content ul {
+    margin-left: 20px;
+}
+
+.content p {
+    font-family: 'Sono', sans-serif;
+    font-size: 14pt;
+}
+
+.content li {
+    font-family: 'Sono', sans-serif;
+    font-size: 14pt;
+    margin-top: 5px;
+}
+
+#listinlist {
+    margin-left: 50px;
+}
+
+#listinlist li {
+    font-size: 13pt;
 }
