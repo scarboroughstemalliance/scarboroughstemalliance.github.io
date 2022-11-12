@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Join Us - Scarborough STEM Alliance</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contentbanner">
+            <h1>Join SSA</h1>
+            <h3><a href="index.html">Scarborough STEM Alliance</a> > Join</h3>
+        </div>
+
+        <div class="contentcontainer">
+            <div class="content">
+                <h3><b><u>Who can Join?</u></b></h3>
+                <br>
+                <p>We target the students, coaches, and mentors of current or potential robotics teams in or around Scarborough. If you match that description, feel free to join us!
+                <br><br>
+                Our main form of communication is through <a href="https://discord.gg/yZSQwe7vcT">Discord</a>.
+                We also have a <a href="https://classroom.google.com/c/NTAyODY0MTM1NDI4?cjc=mskpgrv">Google Classroom</a> for students below 13 years old.
+                <br><br>
+                If there are issues with joining either platform, or if you have other questions, shoot us an email at <a href="mailto:scarborough.stem.alliance@gmail.com">scarborough.stem.alliance@gmail.com</a>
+                <br><br>
+                You could also simply follow our <a href="https://www.instagram.com/scarborough.stem.alliance/">Instagram</a> and <a href="https://twitter.com/ScarboroughSTEM">Twitter</a> to get regular tips, updates, and other useful information.
+                <br><br>
+                Click <a href="https://linktr.ee/scarboroughstemalliance">here</a> for all of our links in one place!
+                </p>
+            </div>
+        </div>
+    
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="activities.html">ACTIVITIES</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+            
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+        
+            sideNav.style.left = "-250px"
+        
+            menuBtn.onclick = function(){
+                if(sideNav.style.left == "-250px"){
+                    sideNav.style.left = "0";
+                }
+                else{
+                    sideNav.style.left = "-250px";
+                }
+            }
+        </script>     
+    </body>
+</html> 
