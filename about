@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Home</title>
+    
+  </head>
+  <body>
+    <header id="head">
+      <nav>
+        <ul>
+          <li> <img src="images/ssa_t2.png" alt="SSA logo">
+          <li>About</li>
+          <li>Workshops</li>
+          <li>Our Team</li>
+          <li>Contact</li>
+          <li>Join Us!</li>
+      </nav>
+    </header>
+  </body>
+  
+</html>
